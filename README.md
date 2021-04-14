@@ -17,7 +17,7 @@
   + Due to difficulties with tracing bugs on GCP's log records page, I was unable to figure out why the job failed on the cluster.
     However, my videos below demonstrate walkthroughs of the inverted indexing algorithm code and show that the job is executed successfully
     whenever it is done manually on the cloud shell.
-- Becuase of these errors when sending a job to the cluster through my application, I was unable to implement features for term and top-N searching.
+- Because of these errors when sending a job to the cluster through my application, I was unable to implement features for term and top-N searching.
   + For the sake of detail, I have included a top-N MapReduce program that can be successfully executed on the GCP cluster when done manually
     on the shell.  This is also demonstrated in my videos.
     
