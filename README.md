@@ -23,6 +23,22 @@
     
 # Execution:
 - Note: Execution instructions assume the user is on Mac.
+- You should install socat in order for the display to connect to X11 seamlessly.  I recommend installing it through Homebrew.
+  + Homebrew installation: 
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+  + Follow the instructions to add Homebrew to your bash profile to finalize the installation.
+  + Next, install socat:
+    ```
+    brew install socat
+    ```
+  + Make sure to verify that socat is installed on your machine.
+- BEFORE YOU RUN THE IMAGE:
+  + In a separate terminal, enter the command:
+    ```
+    socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+    ```
 - If running directly from DockerHub:
   1. ```
      docker run -it -e DISPLAY=$(ipconfig getifaddr en0):0 -v /tmp/.X11-unix:/tmp/.X11-unix ajgreen630/cs1660-project:latest
