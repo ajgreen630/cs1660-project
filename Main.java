@@ -66,7 +66,7 @@ public class Main {
 	static File[] selectedFiles = null;
 	
 	public static void main(String[] args) {
-		authImplicit();
+		//authImplicit();
 		
 		/*try {
 			Process process = Runtime.getRuntime().exec("gcloud beta compute ssh --zone \"us-central1-b\" \"cluster-c5e7-m\"  --project \"cs1660-project-310304\"\nY\n\n"
