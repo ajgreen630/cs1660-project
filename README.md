@@ -8,7 +8,7 @@
 # Items accomplished:
 - Java application implementation and execution on Docker.
 - Docker to GCP Cluster communication.
-- Inverted indexing MapReduce implementation and execution on the GCP cluster.
+- Inverted indexing MapReduce implementation and execution on the GCP cluster (MANUALLY).
 - Code walkthrough video: https://youtu.be/Q_PtRXyiU4s
 - Application demonstration video: 
 
