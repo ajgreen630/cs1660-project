@@ -9,8 +9,8 @@
 - Java application implementation and execution on Docker.
 - Docker to GCP Cluster communication.
 - Inverted indexing MapReduce implementation and execution on the GCP cluster.
-- Code walkthrough video:
-- Application demonstration video:
+- Code walkthrough video: https://youtu.be/Q_PtRXyiU4s
+- Application demonstration video: 
 
 # Important notes and unresolved errors:
 - My application can successfully send Hadoop jobs to the GCP cluster, but the delivered job unfortunately fails without much explanation. 
