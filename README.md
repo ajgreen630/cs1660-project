@@ -1,4 +1,5 @@
 # cs1660-project
+**Additional note: If you are texting .java files individually on your machine, this project assumes that you have the Google Cloud Platform libraries installed on your machine, either through the Eclipse plugin (or some other code editor plugin) or on Maven/Gradle.**
 # Goals:
 - Java application implementation and execution on Docker.
 - Docker to GCP Cluster communication.
