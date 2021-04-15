@@ -13,6 +13,7 @@
 - Inverted indexing MapReduce implementation and execution on the GCP cluster (MANUALLY).
 - Code walkthrough video: https://youtu.be/Q_PtRXyiU4s
 - Application demonstration video: https://youtu.be/nBqtKWNjiBg
+- **Both videos count towards the Demonstration video section of the project.  I needed to upload two separate videos because my machine could not handle the size of the videos combined.**
 
 # Important notes and unresolved errors:
 - My application can successfully send Hadoop jobs to the GCP cluster, but the delivered job unfortunately fails without much explanation. 
